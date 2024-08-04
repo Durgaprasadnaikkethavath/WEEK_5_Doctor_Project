@@ -106,3 +106,12 @@ getStart4.addEventListener("click", function () {
 getStart5.addEventListener("click", function () {
   alert("This time yearly Premium Plan  are not available");
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  window.addEventListener("load", function () {
+    var preloader = document.getElementById("preloader");
+    // var content = document.getElementById("content");
+    preloader.style.display = "none";
+    // content.style.display = "block";
+  });
+});
